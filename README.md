@@ -53,13 +53,19 @@ What about referential integrity?
 ---
 
 1. INSERT 10 new customer into the database that has NOT made orders.
-1. Update a customer's address as 'they have moved' since you added it.
-1. Delete a customer that you recently added.
-1. Update a manufacturer's website information.
-1. Update one of the unknown categories.
-1. Find all customers that have not made any orders (of course they are probably the ones you just added)
-1. Select all products that customers from zip code 26034 have ordered.
-1. What other queries can you form?  What other queries might be of interest to the owners of the store?  What queries might be of interest to the customers?
+    
+    INSERT INTO `unemath_Finnerman`.`Customers` (`customer_id`, `first_name`, `last_name`, `email`, `phone_number`, `zip`, `address`) VALUES ('555999333', 'Levi', 'Ellis', 'Lellis90@gmail.com', '8083244356', '43001', '805 Star Street');
+
+    INSERT INTO `unemath_Finnerman`.`Customers` (`customer_id`, `first_name`, `last_name`, `email`, `phone_number`, `zip`, `address`) VALUES ('123456789', 'Olivia', 'Pope', 'Opope88@whitehouse.net', '2024561111', '20500', '1600 Pennsylvania Ave');
+
+    
+2. Update a customer's address as 'they have moved' since you added it.
+3. Delete a customer that you recently added.
+4. Update a manufacturer's website information.
+5. Update one of the unknown categories.
+6. Find all customers that have not made any orders (of course they are probably the ones you just added)
+7. Select all products that customers from zip code 26034 have ordered.
+8. What other queries can you form?  What other queries might be of interest to the owners of the store?  What queries might be of interest to the customers?
 
 ## More functions
 ---
@@ -67,14 +73,14 @@ What about referential integrity?
 Research the following, determine their functionality and syntax of use:
 
 1. UPPER()
-1. LOWER()
-1. LTRIM()
-1. RTRIM()
-1. CONCAT()
-1. LENGTH()
-1. ISNULL()
-1. LPAD()
-1. RPAD()
+2. LOWER()
+3. LTRIM()
+4. RTRIM()
+5. CONCAT()
+6. LENGTH()
+7. ISNULL()
+8. LPAD()
+9. RPAD()
 
 ## Triple joins
 ---
